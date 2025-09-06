@@ -18,7 +18,7 @@ export default function Header() {
 
   // ===== Scroll threshold (300px) =====
   useEffect(() => {
-    const THRESHOLD = 200;
+    const THRESHOLD = 300;
     const onScroll = () => setScrolled(window.scrollY > THRESHOLD);
     onScroll(); // set initial
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -131,7 +131,7 @@ export default function Header() {
         role="dialog"
         aria-modal="true"
         aria-label="Main menu"
-        className={`fixed inset-y-0 left-0 z-[70] w-full max-w-[100%] transform bg-[#102039] shadow-2xl transition-transform duration-300 md:hidden ${
+        className={`h-[100vh] fixed inset-y-0 left-0 z-[70] w-full max-w-[100%] transform bg-[#102039] shadow-2xl transition-transform duration-300 pl-[20px] pr-[20px] md:hidden ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -140,7 +140,7 @@ export default function Header() {
           <button
             aria-label="Close menu"
             onClick={() => setOpen(false)}
-            className="grid h-10 w-10 place-items-center rounded-lg border text-white hover:text-[#00C5C4]"
+            className="grid h-10 w-10 place-items-center rounded-lg border  text-white hover:text-[#00C5C4] "
           >
             <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
               <path
@@ -165,11 +165,10 @@ export default function Header() {
             </Link>
           ))}
 
-          <div className="mt-3 pt-3">
+          <div className="mt-3  pt-3">
             <Link
               href="#destinations"
-              onClick={() => setOpen(false)}
-              className="group inline-flex items-center rounded-full border border-white px-[35px] py-3 text-white transition hover:bg-[#00C4C2] bg-transparent shadow-2xl text-[20px]"
+              className="group inline-flex items-center rounded-full border-[1px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#00C4C2] bg-transparent shadow-2xl text-[20px] "
             >
               Book Now
               <svg
