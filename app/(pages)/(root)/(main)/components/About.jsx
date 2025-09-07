@@ -21,16 +21,16 @@ export default function About() {
 
           {/* RIGHT: content */}
           <div className="max-w-2xl flex-1">
-            <p className="mb-2 text-[#3FD0D4] tracking-[0.2em] italic satisfy">
+            <p className="mb-2 text-[#2ecc71] tracking-[0.2em] italic satisfy">
               ABOUT US
             </p>
 
-            <h2 className="text-4xl leading-tight text-black drop-shadow-md md:text-6xl lg:text-7xl playfair">
+            <h2 className="text-4xl leading-tight text-black drop-shadow-md md:text-6xl lg:text-7xl playfair title">
               We Plan. You Glow
             </h2>
 
             <div className="mt-6 flex items-start gap-4">
-              <span className="mt-3 inline-block h-[3px] w-14 rounded bg-[#3FD0D4]" />
+              <span className="mt-3 inline-block h-[3px] w-14 rounded bg-[#2ecc71]" />
               <p className="text-slate-600 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -40,7 +40,8 @@ export default function About() {
 
             <a
               href="tel:+1546378654"
-              className="mt-4 inline-block font-semibold text-[#3FD0D4] hover:text-[#3FD0D4]/80 text-lg"
+              className="mt-4 inline-block font-semibold text-[#2ecc71] hover:text-[#2ecc71]/80 text-lg "
+              style={{ color: "#2ecc71" }}
             >
               Speak to our Destination Experts at Direct Call +1 546 378 654
             </a>
@@ -53,7 +54,7 @@ export default function About() {
                 "Trusted by more than 80,000 customers",
               ].map((t) => (
                 <li key={t} className="flex items-start gap-3">
-                  <span className="mt-1 grid h-[30px] w-[30px] place-items-center rounded-full bg-[#3FD0D4]/10 text-[#3FD0D4] shadow">
+                  <span className="mt-1 grid h-[30px] w-[30px] place-items-center rounded-full bg-[#2ecc71]/10 text-[#2ecc71] shadow">
                     <svg
                       viewBox="0 0 24 24"
                       className="h-3.5 w-3.5"
@@ -71,7 +72,7 @@ export default function About() {
 
             <a
               href="/about"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#3FD0D4] px-6 py-3 font-semibold text-white shadow hover:bg-[#3FD0D4]/80"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#2ecc71] px-6 py-3 font-semibold text-white shadow hover:bg-[#2ecc71]/80"
             >
               Read More
               <svg

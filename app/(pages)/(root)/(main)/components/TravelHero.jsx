@@ -1,7 +1,7 @@
 // app/(marketing)/_components/TravelHero.tsx
 export default function TravelHero() {
   return (
-    <section className="relative lg:h-[100vh] h-[80vh] min-h-[560px] w-full overflow-hidden pt-[100px]">
+    <section className="relative 2xl:py-[400px] lg:py-[300px] py-[210px] w-full overflow-hidden ">
       {/* Background image layer (replace src with your own image under /public) */}
       <div className="absolute inset-0 bg-cover bg-center bgBan" />
 
@@ -26,7 +26,8 @@ export default function TravelHero() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#destinations"
-            className="group inline-flex items-center rounded-full border-[3px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#00C4C2] bg-white/15 shadow-2xl "
+            style={{ textDecoration: "none" }}
+            className="group inline-flex items-center rounded-full border-[3px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#2ecc71] bg-white/15 shadow-2xl "
           >
             Explore Now
             <svg

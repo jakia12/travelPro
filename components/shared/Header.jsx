@@ -46,7 +46,7 @@ export default function Header() {
   return (
     <header
       className={[
-        "sticky top-0 z-50 border-b mt-[-102px] py-[13px] transition-colors duration-300",
+        "sticky top-0 z-50 border-b mt-[-102px] pb-[13px] transition-colors duration-300",
         scrolled || open
           ? "bg-[#102039]/90 border-white/10 backdrop-blur shadow-lg"
           : "bg-transparent border-white/25",
@@ -55,7 +55,11 @@ export default function Header() {
       {/* Grid: logo | nav | cta */}
       <div className="container mx-auto lg:grid lg:grid-cols-[auto_1fr_auto] items-center gap-3 px-4 py-3 flex justify-between">
         {/* Left: Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        <Link
+          href="/"
+          className="flex items-center gap-2 no-underline"
+          style={{ textDecoration: "none" }}
+        >
           <span className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-br from-cyan-400 to-teal-500 text-white">
             <svg
               width="18"
@@ -69,7 +73,7 @@ export default function Header() {
             </svg>
           </span>
           <h1 className="text-3xl md:text-4xl font-bold text-white">
-            Travel<span className="text-[#00C5C4]">Pro</span>
+            Travel<span className="text-[#2ecc71]">Pro</span>
           </h1>
         </Link>
 
@@ -79,7 +83,8 @@ export default function Header() {
             <Link
               key={n.label}
               href={n.href}
-              className="text-[20px] font-medium text-white hover:text-[#00C5C4]"
+              className="text-[20px] font-medium text-white hover:text-[#2ecc71] "
+              style={{ textDecoration: "none" }}
             >
               {n.label}
             </Link>
@@ -90,7 +95,8 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <a
             href="#destinations"
-            className="lg:block hidden group items-center rounded-full px-[35px] py-3 text-white backdrop-blur transition bg-[#00C4C2] hover:bg-[#102039] shadow-2xl"
+            style={{ textDecoration: "none" }}
+            className="lg:block hidden group items-center rounded-full px-[35px] py-3 text-white backdrop-blur transition bg-[#2ecc71] hover:bg-[#102039] shadow-2xl"
           >
             Book Now
           </a>
@@ -168,7 +174,7 @@ export default function Header() {
           <div className="mt-3  pt-3">
             <Link
               href="#destinations"
-              className="group inline-flex items-center rounded-full border-[1px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#00C4C2] bg-transparent shadow-2xl text-[20px] "
+              className="group inline-flex items-center rounded-full border-[1px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#2ecc71] bg-transparent shadow-2xl text-[20px] "
             >
               Book Now
               <svg
