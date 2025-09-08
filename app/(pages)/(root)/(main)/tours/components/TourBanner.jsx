@@ -16,7 +16,7 @@ export default function ToursBanner() {
             Popular Tours Packagess
           </h1>
           <p className="cs_page_subtitle cs_fs_24 mb-0">
-            Modern &amp; Beautiful Travel Theme
+            Our Most Popular & Best-Selling Tours
           </p>
         </div>
       </div>

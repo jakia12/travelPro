@@ -88,6 +88,7 @@ export default function TourPackages() {
                   <h2 className="cs_card_title cs_fs_24 cs_semibold hover:text-[#2ecc71] ">
                     <Link
                       href={p.href}
+                      className="package-title"
                       style={{ color: "#000", fontFamily: "Playfair" }}
                     >
                       {p.title}

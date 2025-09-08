@@ -16,7 +16,7 @@ export default function Banner() {
             Popular Destination
           </h1>
           <p className="cs_page_subtitle cs_fs_24 mb-0">
-            Modern &amp; Beautiful Travel Theme
+            Unforgettable Journeys, Tailored for You
           </p>
         </div>
       </div>

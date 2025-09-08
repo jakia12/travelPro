@@ -13,7 +13,7 @@ export default function AboutBanner() {
             About Us
           </h1>
           <p className="cs_page_subtitle cs_fs_24 mb-0">
-            Modern & Beautiful Travel Theme
+            Your trusted partner in world exploration.
           </p>
         </div>
       </div>
