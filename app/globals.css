@@ -7365,3 +7365,33 @@ a {
   transition: all 0.4s;
   display: inline-flex;
 }
+.cs_gray_bg {
+  background-color: #9999991f;
+}
+.cs_contact_form .cs_form_field {
+  background-color: #fff !important;
+  padding: 17px 19px 17px 25px;
+  display: block;
+}
+.cs_form_field {
+  border: 1px solid #ddd !important;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  width: 100%;
+  padding: 16px 20px;
+}
+
+.cs_google_map {
+  height: 790px;
+  margin-bottom: -19%;
+}
+.cs_newsletter.cs_style_1 .cs_btn.cs_style_1 {
+  background-color: #101828 !important;
+  color: white !important;
+}
+
+.cs_newsletter.cs_style_1 .cs_btn.cs_style_1:hover {
+  color: white !important;
+  background-color: #2ecc71 !important;
+  background-color: var(--white);
+}

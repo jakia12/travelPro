@@ -61,6 +61,7 @@ export default function NewsletterBanner({ onSubscribe }) {
             <button
               type="submit"
               className="cs_btn cs_style_1 cs_fs_18 cs_medium bg-[#101828]"
+              style={{ backgroundColor: "#101828" }}
               disabled={status === "loading"}
             >
               {status === "loading" ? "Subscribing..." : "Subscribe"}
