@@ -7395,3 +7395,10 @@ a {
   background-color: #2ecc71 !important;
   background-color: var(--white);
 }
+
+@media screen and (max-width: 768px) {
+  .cs_google_map {
+    height: 450px;
+    margin-bottom: 0;
+  }
+}
