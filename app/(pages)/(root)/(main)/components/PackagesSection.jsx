@@ -107,7 +107,7 @@ export default function PackagesSection() {
                   <div className="cs_card_action">
                     <a
                       href="/about"
-                      className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#2ecc71] px-6 py-3 font-semibold text-white shadow hover:bg-[#2ecc71]/80"
+                      className="mt-8 inline-flex items-center gap-2 rounded bg-[#2ecc71] px-6 py-3 font-semibold text-white shadow hover:bg-[#2ecc71]/80"
                       style={{
                         color: "white",
                         textDecoration: "none",
