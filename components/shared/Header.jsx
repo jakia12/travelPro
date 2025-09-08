@@ -98,7 +98,7 @@ export default function Header() {
           <a
             href="#destinations"
             style={{ textDecoration: "none" }}
-            className="lg:block hidden group items-center rounded-full px-[35px] py-3 text-white backdrop-blur transition bg-[#2ecc71] hover:bg-[#102039] shadow-2xl"
+            className="lg:block hidden group items-center rounded px-[35px] py-3 text-white backdrop-blur transition bg-[#2ecc71] hover:bg-[#102039] shadow-2xl"
           >
             Book Now
           </a>

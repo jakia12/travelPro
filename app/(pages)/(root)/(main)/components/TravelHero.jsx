@@ -27,7 +27,7 @@ export default function TravelHero() {
           <a
             href="#destinations"
             style={{ textDecoration: "none" }}
-            className="group inline-flex items-center rounded-full border-[3px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#2ecc71] bg-white/15 shadow-2xl "
+            className="group inline-flex items-center rounded border-[3px] border-white px-[35px] py-3 text-white backdrop-blur transition hover:bg-[#2ecc71] bg-white/15 shadow-2xl "
           >
             Explore Now
             <svg
