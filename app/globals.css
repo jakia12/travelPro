@@ -6727,16 +6727,7 @@ hr {
   background-color: var(--accent);
   color: var(--white);
 }
-.cs_card.cs_style_3 .cs_package_badge {
-  left: 20px;
-  top: 20px;
-  background-color: var(--white);
-  padding: 17px 58px 17px 31px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
+
 .cs_card.cs_style_3 .cs_card_content {
   width: 100%;
   padding: 22px 25px 30px 25px;
@@ -7315,4 +7306,62 @@ a {
   left: 0;
   bottom: 0;
   height: 100% !important;
+}
+
+.cs_card.cs_style_3 .cs_package_badge {
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  padding: 17px 58px 17px 31px !important;
+  color: black;
+  transition: all 0.4s;
+  top: 20px;
+  left: 20px;
+}
+.cs_card.cs_style_3:hover .cs_package_badge {
+  background-color: #2ecc71;
+  color: white;
+}
+.package-title:hover {
+  text-decoration: none;
+  color: #2ecc71 !important;
+}
+
+.cs_card.cs_style_3 .cs_btn.cs_style_1 {
+  background-color: #101828;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+.cs_card.cs_style_3 .cs_btn.cs_style_1:hover {
+  background-color: #2ecc71 !important;
+}
+.cs_iconbox.cs_style_4 .cs_iconbox_icon {
+  background-color: white !important;
+  border: 2px solid #ddd !important;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: all 0.4s;
+}
+
+.cs_iconbox.cs_style_4:hover .cs_iconbox_icon {
+  background-color: #2ecc71 !important;
+  border-color: #2ecc71 !important;
+  color: white !important;
+}
+.cs_btn.cs_style_1 {
+  color: #fff;
+  background-color: #2ecc71 !important;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px;
+  line-height: 1.6em;
+  transition: all 0.4s;
+  display: inline-flex;
 }

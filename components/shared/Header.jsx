@@ -6,8 +6,10 @@ import { useEffect, useRef, useState } from "react";
 
 const NAV = [
   { label: "Home", href: "/" },
-  { label: "Destinations", href: "/destinations" },
   { label: "About", href: "/about" },
+  { label: "Tours", href: "/tours" },
+  { label: "Destinations", href: "/destinations" },
+
   { label: "Contact", href: "/contact" },
 ];
 
